@@ -2,7 +2,7 @@
   "name": "001-typescript",
   "version": "1.0.0",
   "description": "<details>\r <summary>Что вы должны увидеть после выполнения шага:</summary>",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
     "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx src",
     "eslint:dump": "eslint --print-config ./.eslintrc.json",

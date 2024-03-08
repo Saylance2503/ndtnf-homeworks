@@ -20,6 +20,6 @@ const bookSchema: Schema = new Schema({
     fileName: { type: String, required: true }
 });
 
-const BookModel = mongoose.model<Book>('Book', bookSchema);
+const BookModel = mongoose.model<Book & Document>('Book', bookSchema);
 
 export { BookModel };
